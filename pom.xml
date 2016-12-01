@@ -35,19 +35,9 @@
 
     <dependencies>
         <!-- Internal dependencies -->
-        <!--<dependency>
-            <groupId>eu.crg.ega</groupId>
-            <artifactId>common-dto</artifactId>
-            <version>0.1.1-SNAPSHOT</version>
-        </dependency>-->
         <dependency>
             <groupId>eu.crg.ega</groupId>
             <artifactId>swagger-constants</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>eu.crg.ega</groupId>
-            <artifactId>submission-xsd-classes</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!-- End internal dependencies -->
