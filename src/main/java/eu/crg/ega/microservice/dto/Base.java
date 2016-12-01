@@ -41,15 +41,6 @@ import eu.crg.ega.microservice.dto.erapro.Submission;
 import eu.crg.ega.microservice.dto.message.NotificationMessage;
 import eu.crg.ega.microservice.dto.request.Request;
 import eu.crg.ega.microservice.dto.request.RequestData;
-import eu.crg.ega.microservice.dto.submitter.AnalysisData;
-import eu.crg.ega.microservice.dto.submitter.DacData;
-import eu.crg.ega.microservice.dto.submitter.DatasetData;
-import eu.crg.ega.microservice.dto.submitter.ExperimentData;
-import eu.crg.ega.microservice.dto.submitter.PolicyData;
-import eu.crg.ega.microservice.dto.submitter.RunData;
-import eu.crg.ega.microservice.dto.submitter.SampleData;
-import eu.crg.ega.microservice.dto.submitter.StudyData;
-import eu.crg.ega.microservice.dto.submitter.SubmissionData;
 import eu.crg.ega.microservice.dto.version.GitRepositoryState;
 import eu.crg.ega.microservice.dto.version.MavenEntry;
 import eu.crg.ega.microservice.generic.Tuple;
@@ -69,9 +60,7 @@ import eu.crg.ega.swaggerconstants.common.dto.SwaggerCommonDtos;
                      RequestData.class, Response.class,
                      Run.class, Sample.class, ServiceLocation.class, Study.class, Submission.class,
                      SubmittedFile.class,
-                     SessionUser.class, User.class, Session.class,
-                     AnalysisData.class, DacData.class, DatasetData.class, ExperimentData.class, 
-                     PolicyData.class, RunData.class, SampleData.class, StudyData.class, SubmissionData.class})
+                     SessionUser.class, User.class, Session.class})
 public class Base<T> {
 
   @ApiModelProperty(value = SwaggerCommonDtos.BASE_HEADER, notes = SwaggerCommonDtos.BASE_HEADER_NOTES, required = true, position = 1)
