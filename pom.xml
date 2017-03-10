@@ -238,7 +238,8 @@
                     <generateGitPropertiesFilename>src/main/resources/core.properties
                     </generateGitPropertiesFilename>
                     <failOnNoGitDirectory>false</failOnNoGitDirectory>
-                    <abbrevLength>7</abbrevLength>
+		    <abbrevLength>7</abbrevLength>
+		    <failOnUnableToExtractRepoInfo>false</failOnUnableToExtractRepoInfo>
                     <gitDescribe>
                         <skip>false</skip>
                         <always>true</always>
